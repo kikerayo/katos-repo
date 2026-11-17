@@ -157,6 +157,25 @@ Description: KatMoji: buscar y copiar emojis en español
  de Unicode CLDR), por grupos, con buscador y recientes. Un clic copia
  el emoji para pegarlo donde quieras.
 
+Package: kat-repositorio
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 8
+Depends: apt (>= 2.6)
+Filename: pool/alpha/k/kat-repositorio/kat-repositorio_0.1.0_all.deb
+Size: 1556
+MD5sum: 4f028ecc3207d002861c6851d282381e
+SHA1: 0d776188aa557db2055628192519fc77ad4c15be
+SHA256: 5564cfcf9f59aabf8e49f4a80c22dc7bcacba67eb07ca318b5fca7e8dbc174b0
+SHA512: 77686d76b507579a3594f61872a394f7aabcd5991dcddcaa6e7113c7ae3f113c372ae3d048899ce8fd873c987f05d0c28f3a41385e957a94a6f4f949d007568b
+Description: Repositorio de actualizaciones de Kat OS
+ Conecta el equipo con el repositorio oficial de Kat OS (apps y piezas
+ Kat), con su llave pública para comprobar que cada actualización está
+ firmada por el proyecto. Kat Update Center y apt la usan solos.
+
 Package: kat-rostro
 Architecture: all
 Version: 0.1.0
