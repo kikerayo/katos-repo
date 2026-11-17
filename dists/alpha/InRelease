@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: all amd64
+Codename: alpha
+Components: main
+Date: Tue, 17 Nov 2026 20:47:39 +0000
+Description: Apps y piezas de Kat OS (alpha)
+Label: Kat OS
+Origin: KatOS
+Suite: alpha
+MD5Sum:
+ 6583b5f0aa133b5412fad7d5a7fc22e4            16416 main/binary-all/Packages
+ 088b1fd3dfecc864d06e7f2c872be443             6571 main/binary-all/Packages.gz
+ 6583b5f0aa133b5412fad7d5a7fc22e4            16416 main/binary-amd64/Packages
+ 088b1fd3dfecc864d06e7f2c872be443             6571 main/binary-amd64/Packages.gz
+SHA1:
+ f67876c4885139606d93d44635650594d237c892            16416 main/binary-all/Packages
+ 53eaf894d852eed1fc67466c9b17e19d9d9e0309             6571 main/binary-all/Packages.gz
+ f67876c4885139606d93d44635650594d237c892            16416 main/binary-amd64/Packages
+ 53eaf894d852eed1fc67466c9b17e19d9d9e0309             6571 main/binary-amd64/Packages.gz
+SHA256:
+ e89f75a3549935359b8019176a616f3213065da73fa4c14c3db92e00d294553e            16416 main/binary-all/Packages
+ 42b8989c5a32e728111044143620c7427450b58a77c4b4bc109cad0009e47566             6571 main/binary-all/Packages.gz
+ e89f75a3549935359b8019176a616f3213065da73fa4c14c3db92e00d294553e            16416 main/binary-amd64/Packages
+ 42b8989c5a32e728111044143620c7427450b58a77c4b4bc109cad0009e47566             6571 main/binary-amd64/Packages.gz
+SHA512:
+ eb1e8d86d8c591915935d94b4ca3d74ac0ef4a89b68075edf6ac9e181a1aac847cba50c89b5a4a15c104070f743cbec03679549829e30523285a08e689957dd5            16416 main/binary-all/Packages
+ 990482093c736273a848326596af04fe636adf5d01c1ef71ff56ca86bb9b3499e611eb860b74ece85fd6f333ec8ce1c88e5cab4eee5847c45683ce621b6c2f8f             6571 main/binary-all/Packages.gz
+ eb1e8d86d8c591915935d94b4ca3d74ac0ef4a89b68075edf6ac9e181a1aac847cba50c89b5a4a15c104070f743cbec03679549829e30523285a08e689957dd5            16416 main/binary-amd64/Packages
+ 990482093c736273a848326596af04fe636adf5d01c1ef71ff56ca86bb9b3499e611eb860b74ece85fd6f333ec8ce1c88e5cab4eee5847c45683ce621b6c2f8f             6571 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTeSBk89aR6OHemMIQNx6zznFPzLwUCavy9awAKCRANx6zznFPz
+L2otAP95+4i5EghSPO7p6DupPbCtQ6esvUUywyrdLAERGzxuSAEA7LkucaAHVjd6
+jIfnCR6FGvyQIU11m3OsZvxHHMXx+A8=
+=i82z
+-----END PGP SIGNATURE-----

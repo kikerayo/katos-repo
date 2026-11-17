@@ -1,0 +1,344 @@
+Package: kat-artwork
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: graphics
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 10928
+Filename: pool/alpha/k/kat-artwork/kat-artwork_0.1.0_all.deb
+Size: 8760776
+MD5sum: 5ae6456faedf116aaa2d8d4c48be9856
+SHA1: 7bd3e5e508d23aa7f9dde0c1eafe930545fc65e8
+SHA256: ed875e8dd3bac81d91c2d449c49461c10265f5e42e041b7dcff1b22f013c2edb
+SHA512: c1a77bfbb25afb2cf93df533e11b2c9e4470c354d217e05a32140fa02f187eac5f342085738a681ebce0d5ac9ca877a1f2931c704599db4647a3c7b3b741bb62
+Description: Fondos de pantalla, fotos de perfil e iconos de Kat OS
+ 8 fondos de pantalla (Full HD y 4K), 12 fotos de perfil y los iconos
+ de las apps Kat. Sustituyen a los fondos de Debian y de KDE.
+
+Package: kat-asistente
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 168
+Depends: kat-ui (>= 0.1.0), kat-settings (>= 0.1.0), kat-security (>= 0.1.0), kat-store (>= 0.1.0), kat-artwork (>= 0.1.0), python3-pyside6.qtwidgets, python3-pyside6.qtgui, python3-pyside6.qtnetwork, espeak-ng
+Recommends: kat-core, pipewire-bin, alsa-utils
+Filename: pool/alpha/k/kat-asistente/kat-asistente_0.1.0_all.deb
+Size: 34296
+MD5sum: 6a7dbe512326ae155a04dfe46e05a608
+SHA1: 1f0766c6bbe0a22f66d8d29aa68af7e1f317b79e
+SHA256: fe068e69ff1bbb6e14a223e63058286736849f1daf3319e949ebc0984ec2f462
+SHA512: 9acc7aa5a1530f4023f20715ab2d278c169a91bf169af4ef442ffe8e5a52acd9715a0c52666694dad5c26c3d6ef89ceb2b59d35348ebd67fec4b41d3a395cd6d
+Description: Kat, la asistente de Kat OS
+ Una canica animada con orejas de gato que sale de la barra de tareas.
+ La primera vez golpea la barra para salir y te deja elegir su palabra de
+ activación, si usas micrófono, su voz y su diseño. Un clic y le hablas
+ (la transcripción la hace Groq Whisper con tu clave, opcional) o le
+ escribes; responde en voz alta (espeak-ng) y hace cosas de verdad: abrir
+ apps Kat, hora, clima, cuentas, volumen, modo oscuro o claro, buscar en
+ Kat Store e internet, temporizadores y bloquear la pantalla.
+
+Package: kat-bienvenida
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: kde
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 56
+Depends: kat-ui (>= 0.1.0), kat-core (>= 0.1.0), kat-artwork (>= 0.1.0), python3-gi, gir1.2-glib-2.0, accountsservice, flatpak
+Filename: pool/alpha/k/kat-bienvenida/kat-bienvenida_0.1.0_all.deb
+Size: 9996
+MD5sum: ab313b556afdc40eda2ec9198b0b479d
+SHA1: 36f1d059c87cd79edc464aed14ccf51a19cd44a0
+SHA256: 3ebc07c5de2e913946006a5abb03d35dbf731078791a8eaa99684bef383f549b
+SHA512: 6a78fe6904d84ede5ae85206ed36c1ff993c299a50df923b174de1d7a22d12d4980832f615d74adb03980b3f76ca9a86ec4e5e97789d55a6b238c1d9b29e984d
+Description: Kat Bienvenida: configuración del primer inicio de Kat OS
+ Se abre la primera vez que entras: tu nombre y foto, modo oscuro o
+ claro, color, fondo, cortafuegos, actualizaciones automáticas y apps
+ sugeridas de Flathub. Sustituye a la bienvenida genérica de Plasma.
+
+Package: kat-compat
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: otherosfs
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 36
+Depends: kat-core (>= 0.1.0), wine, wine64, python3-pyside6.qtwidgets, python3-pyside6.qtcore
+Recommends: wine32
+Filename: pool/alpha/k/kat-compat/kat-compat_0.1.0_all.deb
+Size: 5188
+MD5sum: 9bb011f189c9a0ef8e1b801373d309f5
+SHA1: 813c3c185950ed70699dd645862925a3208b71ed
+SHA256: c0b95c102477c386379567f13dd7f207cb94795f15830c8de1ad9ca04c1f58e9
+SHA512: 30c334c60ef1eb95609e297e75b2080b1e58998ec0a67ccf2ad64fd5d84df10eae3270bf35aeb0998c76ebe30fc9151c49c5e5d95dc00716032067058e512285
+Description: Kat Compat: abre programas de Windows con doble clic
+ Abre archivos .exe, .msi y .bat usando Wine, con un "Windows" propio
+ para cada usuario que se prepara solo la primera vez. Avisa con
+ claridad cuando un programa no es compatible y anota lo ocurrido en
+ Kat Core.
+
+Package: kat-core
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 48
+Depends: python3 (>= 3.11), python3-gi, gir1.2-glib-2.0, dbus
+Filename: pool/alpha/k/kat-core/kat-core_0.1.0_all.deb
+Size: 7352
+MD5sum: c5162aac7d737e57596768af6abe9109
+SHA1: 4c912ed88f1faca494b6efc97ef2d3bcecc760d9
+SHA256: 7723a97ff6b98cfdeb96ccae1c89996bb03eb4a27dacaeb49b11e26f0f4eebaa
+SHA512: e5a801fc6a556fbd8aa40668e938ed76e0afbba8b51bdf285ebb48f8f8ea3974d14a7c0ba198b2cb79446d2cbe76c321698b1c36fd3b502de0ad753612fc9cf3
+Description: Kat Core (katd), servicio central de Kat OS
+ Servicio de sesión en D-Bus (org.katos.Core) que usan las apps Kat:
+ registro común de eventos, lista de apps Kat y datos reales del
+ sistema (CPU, memoria, disco). Incluye la herramienta katctl.
+
+Package: kat-devcenter
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: devel
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 40
+Depends: kat-core (>= 0.1.0), python3-pyside6.qtwidgets, python3-pyside6.qtcore, python3-pyside6.qtgui
+Filename: pool/alpha/k/kat-devcenter/kat-devcenter_0.1.0_all.deb
+Size: 6244
+MD5sum: 42fa4df6fe7c7fd9ffc3efdf2a1fe6ea
+SHA1: 559873bf365c9c79235f05f2e9d7ec5b15abf8e2
+SHA256: 78bc66ce0812ad6ec6a416fe7f2c1782ae7f92dfc298e9d23ca94c3659d355fe
+SHA512: 72685ce357bd41378a3ef4acd59f4cfb50a881e01a19d348afc80a75a635c8b850ad0f0a1367a20a5ba79a2d7926cb18e90546d71448467143951fb9c6eab105
+Description: Kat Developer Center
+ Herramienta de Kat OS para ver el estado de Kat Core, el registro de
+ eventos de todas las apps Kat, las apps registradas y reiniciar el
+ servicio katd.
+
+Package: kat-files
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 72
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), python3-pyside6.qtwidgets, python3-pyside6.qtcore, python3-pyside6.qtgui
+Recommends: kat-core
+Filename: pool/alpha/k/kat-files/kat-files_0.1.0_all.deb
+Size: 13276
+MD5sum: b4e9fef8083f188bdc37a408dba2a0cf
+SHA1: 767113ada728d89bd52e06ba39e51723e2d85c70
+SHA256: beb723ce7b05f6c38092f1cda13b15e9c8fc4079dddfba7ac4ab39b02624aaa4
+SHA512: 76a45d8d1b164af03961622d1b65f8536246be20e9763ff746820a654d17b7a5df6ea2a07aaf27715354cb5e4001cd7e3a027ad07c8b48e229d44436e77f27f3
+Description: Kat Files: explorador de archivos de Kat OS
+ Carpetas personales y discos, vista de iconos (con miniaturas de
+ fotos) o de detalles, copiar/cortar/pegar sin sobrescribir nunca,
+ papelera con restaurar y vaciar, búsqueda en subcarpetas, renombrar,
+ carpeta nueva y propiedades.
+
+Package: kat-moji
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 180
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), python3-pyside6.qtwidgets, python3-pyside6.qtgui, fonts-noto-color-emoji
+Filename: pool/alpha/k/kat-moji/kat-moji_0.1.0_all.deb
+Size: 34916
+MD5sum: 12042c71bba9912738fb68a8f1805223
+SHA1: e748656c6ae1ac496686433b9fda31b817ee273b
+SHA256: 4a81f5d41002dc46e172f7ff035c14bccb1bec4aceb6b13c0550d5c90f0c0d36
+SHA512: 33461725183e50c6a72a5ebc6e2a39aa6c5155af68ef4989bec8357340994260e32df62baf5eef8c9a9231435b8e4a6b41d304324cee8f5f622238e7d67a6c96
+Description: KatMoji: buscar y copiar emojis en español
+ Todos los emojis de Unicode con su nombre en español (datos oficiales
+ de Unicode CLDR), por grupos, con buscador y recientes. Un clic copia
+ el emoji para pegarlo donde quieras.
+
+Package: kat-rostro
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 38076
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), python3-opencv, python3-numpy, python3-pyside6.qtwidgets, python3-pyside6.qtgui
+Filename: pool/alpha/k/kat-rostro/kat-rostro_0.1.0_all.deb
+Size: 35894212
+MD5sum: 909ca8086a5a515278a821be25ef55a9
+SHA1: fa6985d986e2be6a9f43a5dc212be1022eebeb6e
+SHA256: 8faf1e3321acced74fa51670509b96a92be1fdbd1020c92a2a123e272c89870d
+SHA512: 981a339de685baee2d68c0585d49dc3a8b3ce3a29739a6b989f9e9c7827e4ddb302d8874468bf4127445608697ce4073a5eef37f0472a6419d79f7c3d28e1f1a
+Description: Kat Rostro: desbloquear la pantalla con tu cara (opcional)
+ Registra tu cara con la webcam y la usa en la pantalla de bloqueo de
+ Kat OS (KatLock). Solo guarda una huella numérica, nunca fotos, y nada
+ sale del equipo. Usa los modelos YuNet y SFace de OpenCV (Apache-2.0).
+ Aviso: con una cámara normal una foto podría engañarlo; el PIN y la
+ contraseña siguen funcionando siempre.
+
+Package: kat-safety
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 48
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), python3-pyside6.qtwidgets, python3-pyside6.qtgui
+Recommends: kat-core, power-profiles-daemon, brightnessctl
+Filename: pool/alpha/k/kat-safety/kat-safety_0.1.0_all.deb
+Size: 9800
+MD5sum: cb03e4f4bde1edd66d8328f9b79c5205
+SHA1: b33a1c1be3a0f24e13b1ab82eb4601bc076d78e8
+SHA256: fae07a3a07ad527ac976807d5616fe848d94c31852961c9bbeadbfb8182dae28
+SHA512: 7684d8ccf72d68fce09a6804075df536fcb07c536c1b409c4acc5b683e467f745d69d7c8ba7333d0d71746696762f15622d7c9121b9bfe66cd119c268044b615
+Description: KatSafety: alertas de desastres y modos de emergencia
+ KatDisaster Alert (sismos cercanos de USGS y alertas de desastres de
+ GDACS, sin cuenta; la ubicación no sale del equipo), KatTest Alerts
+ (alertas de prueba marcadas como simulación, sin contactar a nadie) y
+ Kat Emergency Power / Kat EcoSafety (modos de ahorro de energía).
+
+Package: kat-security
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 60
+Depends: kat-ui (>= 0.1.0), kat-update (>= 0.1.0), kat-store (>= 0.1.0), kat-artwork (>= 0.1.0), iproute2, util-linux, dpkg
+Recommends: kat-core
+Filename: pool/alpha/k/kat-security/kat-security_0.1.0_all.deb
+Size: 10768
+MD5sum: cc47184aa1305729f0f4df8e713163c5
+SHA1: 7105c51ff87f20d5c46060e664bd5deb3467b321
+SHA256: b61e005e96b5b92b0e9da6e27d7206a5ded63f1b9102940016a4cb83a37d4d8c
+SHA512: b766512154886fe887205e24eec1108d8f0203c7811a91897fad1de0afa0e01c574d10935d887e6bb09f2d135e0a3e84101439432de6fcd447d10940942caa11
+Description: Kat Security: centro de seguridad de Kat OS
+ KatSecure (nota de seguridad con comprobaciones reales), KatNet Shield
+ (cortafuegos y puertos abiertos), KatUpdates, KatSystem Integrity
+ (archivos del sistema modificados), KatUSB Guard (dispositivos USB),
+ KatPermission Watch (permisos de apps), KatPrivacy y KatLock.
+
+Package: kat-settings
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: kde
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 72
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), python3-gi, gir1.2-glib-2.0, accountsservice
+Recommends: kat-core, wireplumber, network-manager, power-profiles-daemon
+Filename: pool/alpha/k/kat-settings/kat-settings_0.1.0_all.deb
+Size: 12392
+MD5sum: 66db23df962d70a8b8762fe814938f04
+SHA1: c7f7a30bc04f0d1dbda315c5f08a2c1bccb83af9
+SHA256: f606ca2de587ec8e406a51cfdb76795a2f15afa9cc3113c0b7108edaa832a92a
+SHA512: eca92e2b9211386a6901f69c5ff893b3f6ea76cb2383841bb68a5dcd38aabfeee91db85bbf60f0606d69166fdd6cb83b8dc27b89f1ebf6722e49074b3e0032c3
+Description: Kat Settings: panel de ajustes de Kat OS
+ Personalización (tema, color, fondo), tu cuenta (nombre y foto),
+ pantalla, sonido, red y Wi-Fi, energía, fecha y hora, seguridad
+ (cortafuegos y actualizaciones) y acerca de este equipo.
+
+Package: kat-store
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 76
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), flatpak, python3-pyside6.qtwidgets, python3-pyside6.qtcore, python3-pyside6.qtgui
+Recommends: kat-core
+Filename: pool/alpha/k/kat-store/kat-store_0.1.0_all.deb
+Size: 14904
+MD5sum: 367144f6ee46e0d97a796df26ee7539b
+SHA1: f72eecbbab9be512dd0192d8085ab966eb9a5387
+SHA256: 159e16603ab2d15f936c3f0872cb71e2c767fcc4c4cdb95d5115f2195103604a
+SHA512: 1fb8fcf74306d538c299045a262203f39c1172b426d473aa3657840f9e8ed2ff02a9d0b1f9fa829ec2996ba2daf2673196f97cd271ae516c8578987a5dc39df3
+Description: Kat Store: tienda de apps de Kat OS
+ Explora el catálogo real de Flathub (populares, tendencias, novedades,
+ categorías y búsqueda), con fichas, capturas y permisos explicados.
+ Instala, abre, desinstala y actualiza apps (Flatpak) y muestra las
+ fuentes verificadas. Nada inventado: todo sale de Flathub o del equipo.
+
+Package: kat-telefono
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 112
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), systemd, python3-pyside6.qtwidgets, python3-pyside6.qtgui
+Recommends: libnotify-bin
+Filename: pool/alpha/k/kat-telefono/kat-telefono_0.1.0_all.deb
+Size: 42484
+MD5sum: cbf34a367ccbc91412cd8c5524defb50
+SHA1: 974605acf69c43907c801c33e8114d2c3c2f7c7c
+SHA256: 49dd7ab43a33bae3f695f5b3fab5cd29d8269d5856bbee0b7b40deaf59a5dcb3
+SHA512: 3fcd097f6534dd3b420e94690abc06cbf54f2fb56b6f64eacf72c61a0dee9a73b78b052c3e9253ef61bc306642e3396f283a45d64f63c1d5e65d470ee88a7a6e
+Description: Kat Phone ID: desbloquear Kat OS desde la web del teléfono (opcional)
+ Vincula tu teléfono escaneando un código QR. Luego, con la pantalla
+ bloqueada, tocas un botón en la web de Kat en el teléfono y el PC se
+ desbloquea. Retos de un solo uso firmados con HMAC-SHA256, solo desde la
+ red local, con límite de intentos y aviso en el escritorio. La clave
+ nunca viaja por la red. Está apagado hasta que vinculas un teléfono.
+
+Package: kat-ui
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: python
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 76
+Depends: python3 (>= 3.11), python3-pyside6.qtwidgets, python3-pyside6.qtcore, python3-pyside6.qtgui, pkexec, ufw
+Filename: pool/alpha/k/kat-ui/kat-ui_0.1.0_all.deb
+Size: 13788
+MD5sum: a5d4dbfa8fb6c9cf84f80f2f51158a9f
+SHA1: 38c306716ce12d8d7f5933544ad7d241a4aa2e4f
+SHA256: 65596e5bd60c3e05abb1f5222ee61d2ba99cfe0205bcb6c2424c28724540750f
+SHA512: 521b653103db58e6ae722b8fd91fa28003e536e3abf15868c858b24cbcec0f6af6af2d87d82d51c31fbef21fdeab335cd3a4f6f1e7fa71ce4095b3c128b64665
+Description: Base común de las apps Kat
+ Estilo visual Kat, detección de plataforma, rutas del arte Kat y el
+ ayudante con permisos (kat-ayudante + polkit) que usan Kat Bienvenida,
+ Kat Settings y Kat Security para cambiar el cortafuegos y las
+ actualizaciones automáticas.
+
+Package: kat-update
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 40
+Depends: kat-ui (>= 0.1.0), kat-store (>= 0.1.0), kat-artwork (>= 0.1.0), apt, pkexec
+Recommends: kat-core, unattended-upgrades
+Filename: pool/alpha/k/kat-update/kat-update_0.1.0_all.deb
+Size: 7028
+MD5sum: 8996902e9dab81c1d5a51f952d2b4c35
+SHA1: 79ea0f8243a4e6cfcb5e021915cc910c47465092
+SHA256: f9db5ceb8815b4b9848b618e030575a60094e5834b29b902e279e8c6b24d2c38
+SHA512: 799efa485ab270e7185da59e1685ba8c670d9682b59c1e78bb7515a5b28a3704d601e6bd9dcd93212f57c0ebe9123bd190ad14e3f0a74467081ab6594e7573c8
+Description: Kat Update Center: actualizaciones de Kat OS
+ Busca y aplica las actualizaciones del sistema (APT) y de las apps
+ (Flatpak) con el registro en vivo, muestra el historial, avisa si
+ falta reiniciar y activa las actualizaciones de seguridad automáticas.
+ Las actualizaciones nunca reemplazan la configuración propia de Kat OS.
+
+Package: kat-widgets
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: kde
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 28
+Depends: kat-core (>= 0.1.0), plasma-workspace, qml6-module-org-kde-plasma-plasma5support
+Filename: pool/alpha/k/kat-widgets/kat-widgets_0.1.0_all.deb
+Size: 3296
+MD5sum: f06c242234861535496aa53f1826831b
+SHA1: 997c52b0c829526d481fac9abdeb8055a5e9b052
+SHA256: 1df2109d510437514fcbb476bb885b3f94c584a4ef3ad1e8b96d057bca87bb25
+SHA512: 00a9062347f095394091a9ed84dbba8086c4538e0d1ea2593d5cefb286364035f55419b68e60bb3a1e79f8a1de77125a2f03bb9ceabcb2aad971ef481dfcae0f
+Description: Widgets del escritorio Kat OS
+ Kat Rendimiento (CPU y memoria) y Kat Almacenamiento (disco del
+ sistema), con datos reales de Kat Core.
+
