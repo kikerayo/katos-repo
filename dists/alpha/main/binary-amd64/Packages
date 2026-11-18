@@ -176,6 +176,27 @@ Description: Repositorio de actualizaciones de Kat OS
  Kat), con su llave pública para comprobar que cada actualización está
  firmada por el proyecto. Kat Update Center y apt la usan solos.
 
+Package: kat-repositorio
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 8
+Depends: apt (>= 2.6)
+Recommends: unattended-upgrades
+Filename: pool/alpha/k/kat-repositorio/kat-repositorio_0.1.1_all.deb
+Size: 1848
+MD5sum: d8fd2234d223dc90650da365b19eea7b
+SHA1: 868458f172cb99506ad058dc583480ae31ad4458
+SHA256: 8afd066bddaef433c47499aa0a599d193a2f5145f01a4dddc503522ff8699cd1
+SHA512: 9951e185a7f44b1127b17ac9a43d2da03a8ede341a2f112001a474baac93bd12eae116e389ba87166a078d969ad6dd8d89609c630858b8c17be845aba3a8edb3
+Description: Repositorio de actualizaciones de Kat OS
+ Conecta el equipo con el repositorio oficial de Kat OS (apps y piezas
+ Kat), con su llave pública para comprobar que cada actualización está
+ firmada por el proyecto. Kat Update Center y apt la usan solos, y las
+ actualizaciones de Kat se instalan solas junto con las de seguridad.
+
 Package: kat-rostro
 Architecture: all
 Version: 0.1.0
@@ -258,6 +279,27 @@ Description: Kat Settings: panel de ajustes de Kat OS
  Personalización (tema, color, fondo), tu cuenta (nombre y foto),
  pantalla, sonido, red y Wi-Fi, energía, fecha y hora, seguridad
  (cortafuegos y actualizaciones) y acerca de este equipo.
+
+Package: kat-sistema
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 112
+Depends: kat-ui, kat-artwork, kat-rostro, plasma-desktop, sddm
+Filename: pool/alpha/k/kat-sistema/kat-sistema_0.1.0_all.deb
+Size: 18644
+MD5sum: 0a7e60f16967675f3f2368929109fe5c
+SHA1: 5911ffa359a319b813e412095372b345e11c1060
+SHA256: 7bfc33319af8b77d7e7b5d7f2e8be4df920e8bd85e2b8af9cf0b1c8331e617cf
+SHA512: 026e484f3a72440c8f105de28b83ebc0f9eb7ebf1571a3fe679e7d53e03bdb3c405f424ac5772d5ce42efcb1662a56c80e3ebd5d016d8e817a61d5aa2b2a5441
+Description: Piezas del sistema de Kat OS
+ Todo lo que hace que el escritorio sea Kat OS y no un Plasma cualquiera:
+ pantalla de bloqueo Kat (KatLock) con cara y PIN, animaciones de las
+ ventanas (kat-aparecer), cursores y colores por defecto, pantalla de
+ carga, inicio de sesión, nombre del sistema y ajustes de memoria.
+ Al venir en un paquete se actualiza solo con el repositorio de Kat OS.
 
 Package: kat-store
 Architecture: all
