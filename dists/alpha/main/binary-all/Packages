@@ -347,6 +347,28 @@ Description: Piezas del sistema de Kat OS
  automática por internet (systemd-timesyncd).
  Al venir en un paquete se actualiza solo con el repositorio de Kat OS.
 
+Package: kat-sistema
+Architecture: all
+Version: 0.1.2
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 112
+Depends: kat-ui, kat-artwork, kat-rostro, plasma-desktop, sddm, systemd-timesyncd
+Filename: pool/alpha/k/kat-sistema/kat-sistema_0.1.2_all.deb
+Size: 19408
+MD5sum: 0fcb06af7815b7ea476c8d956eae101d
+SHA1: d73da73b2a42e9e049b4e69c3995db7fae7d4e9f
+SHA256: 4ab76ab98fc57819f27cc5ea908bcffb368551dfd844ae7ea4e23ebb24d84d67
+SHA512: 8038292b0f60d30dca210f191364d874f3415d891382720819c9b7079ba327aec7089363f9cbea4e0e44716f15d88d20cd6fd478e9dd8529beff2b356efd79dc
+Description: Piezas del sistema de Kat OS
+ Todo lo que hace que el escritorio sea Kat OS y no un Plasma cualquiera:
+ pantalla de bloqueo Kat (KatLock) con cara y PIN, animaciones de las
+ ventanas (kat-aparecer), cursores y colores por defecto, pantalla de
+ carga, inicio de sesión, nombre del sistema, ajustes de memoria y la hora
+ automática por internet (systemd-timesyncd).
+ Al venir en un paquete se actualiza solo con el repositorio de Kat OS.
+
 Package: kat-store
 Architecture: all
 Version: 0.1.0
@@ -445,6 +467,26 @@ MD5sum: 79bd089d8bbb60479216f89e2c19263f
 SHA1: bcfcc9a5f15ad16443df76c174008467fb2b7dbc
 SHA256: 3cebf3d087b1d601526df77c738716dd908d4146c439fe296e5b538835028e75
 SHA512: 1335af8d38ae6c66fedc46fbe6a64d568c150d4da1026afbce1f412ba59b2296691ff7fad4438bc9b854acf327f10466afec8c06ab312cd509829ec61f7633ed
+Description: Base común de las apps Kat
+ Estilo visual Kat, detección de plataforma, rutas del arte Kat y el
+ ayudante con permisos (kat-ayudante + polkit) que usan Kat Bienvenida,
+ Kat Settings y Kat Security para cambiar el cortafuegos y las
+ actualizaciones automáticas.
+
+Package: kat-ui
+Architecture: all
+Version: 0.1.2
+Priority: optional
+Section: python
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 76
+Depends: python3 (>= 3.11), python3-pyside6.qtwidgets, python3-pyside6.qtcore, python3-pyside6.qtgui, pkexec, ufw
+Filename: pool/alpha/k/kat-ui/kat-ui_0.1.2_all.deb
+Size: 14080
+MD5sum: fb2bfb469ac38e9806f0225e28a11298
+SHA1: d0a5984494d4e461d2eddcfefb69022c5074995f
+SHA256: e3f279de1b0007a9e11c3bf160283c82f7dfce80cc775d644bc405d01d839358
+SHA512: 986dd50f3871954c01690f87c517e28c0fc4b420381ca24467e1338ee3eccebc2dd461d00b0c347b583d5272d41157509339746510f52776ae2389b476a53d85
 Description: Base común de las apps Kat
  Estilo visual Kat, detección de plataforma, rutas del arte Kat y el
  ayudante con permisos (kat-ayudante + polkit) que usan Kat Bienvenida,

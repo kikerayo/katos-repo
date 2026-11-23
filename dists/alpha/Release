@@ -1,32 +1,32 @@
 Architectures: all amd64
 Codename: alpha
 Components: main
-Date: Mon, 23 Nov 2026 22:24:46 +0000
+Date: Mon, 23 Nov 2026 22:33:59 +0000
 Description: Apps y piezas de Kat OS (alpha)
 Label: Kat OS
 Origin: KatOS
 Suite: alpha
 MD5Sum:
- c540652dece7221de259eb9fd19d95c7             2384 Release
- 4e28198ebd27104c9dc123cc25607e9e            24535 main/binary-all/Packages
- 3eeabbf61069984485fcf54e1965a7ab             8545 main/binary-all/Packages.gz
- 4e28198ebd27104c9dc123cc25607e9e            24535 main/binary-amd64/Packages
- 3eeabbf61069984485fcf54e1965a7ab             8545 main/binary-amd64/Packages.gz
+ a37742c8e59cb7725a65d124b6228e6c             2384 Release
+ 8c698d31827d3284a5571d18119024fd            26520 main/binary-all/Packages
+ 063d43edebaca26f43dc91bc5916bdef             8931 main/binary-all/Packages.gz
+ 8c698d31827d3284a5571d18119024fd            26520 main/binary-amd64/Packages
+ 063d43edebaca26f43dc91bc5916bdef             8931 main/binary-amd64/Packages.gz
 SHA1:
- c05c38f7ab97d2d05e63cee7bdd1d76d1bfd55c8             2384 Release
- 6bc1c06686fcace5e7ac92b656a64eee21395bc3            24535 main/binary-all/Packages
- e8ea06aaa036b6f38bb43c25147fea8ec6d2e041             8545 main/binary-all/Packages.gz
- 6bc1c06686fcace5e7ac92b656a64eee21395bc3            24535 main/binary-amd64/Packages
- e8ea06aaa036b6f38bb43c25147fea8ec6d2e041             8545 main/binary-amd64/Packages.gz
+ cdcfe775c59314f0d358918d009ca77cdd334db0             2384 Release
+ a4362a6a32238ff67558b259e7d8e3dba703d2b3            26520 main/binary-all/Packages
+ acea1fc2b88e22048d2b215bba553337506733bb             8931 main/binary-all/Packages.gz
+ a4362a6a32238ff67558b259e7d8e3dba703d2b3            26520 main/binary-amd64/Packages
+ acea1fc2b88e22048d2b215bba553337506733bb             8931 main/binary-amd64/Packages.gz
 SHA256:
- 065854c1918a3f263493e4a41832c0b784c0c437c667b598c26d97e45f1b0abf             2384 Release
- f73c81eff3f8b68c5250541ae12e9578023a34ba04463e8951785050269d132e            24535 main/binary-all/Packages
- 22121bf089e61a96b9beba63abac473f6c3291afba9f19c87eb07bff5e745c28             8545 main/binary-all/Packages.gz
- f73c81eff3f8b68c5250541ae12e9578023a34ba04463e8951785050269d132e            24535 main/binary-amd64/Packages
- 22121bf089e61a96b9beba63abac473f6c3291afba9f19c87eb07bff5e745c28             8545 main/binary-amd64/Packages.gz
+ bf462305f06b5061aa24330524ec412bb4007a67ff0596f2b582df8410aeb772             2384 Release
+ b5e4a47653dd0e14245291ebe2eea14911bc19fc478ffe0ba1fff39da0561eb7            26520 main/binary-all/Packages
+ 05f8c2bf0330a12e09a0251515e799834fab4554e7839d82e6d8fd7e249f727d             8931 main/binary-all/Packages.gz
+ b5e4a47653dd0e14245291ebe2eea14911bc19fc478ffe0ba1fff39da0561eb7            26520 main/binary-amd64/Packages
+ 05f8c2bf0330a12e09a0251515e799834fab4554e7839d82e6d8fd7e249f727d             8931 main/binary-amd64/Packages.gz
 SHA512:
- 47ad4105784b0739b3db74de040bdf6d58636ad9b295bf4fa0827a575afbc232256dddb1da70e53f0f9336e569790c99cf5b5fee6c98777d0a4a06d291cbffce             2384 Release
- 7109a7f23b4a76db71423cef6c74047430162db83069b91e2a6f16a0bda96e4fe6c9d7fafef178a45a63adc7931a443020e88311828692af7c05f03864da115a            24535 main/binary-all/Packages
- f6f64cf60692b9549c8c74e10310ccf913cacc4e6bbac67cbfe0961025c7b646e9d2fa3d4a3f14815700fdc84962f317ecdbb634aca77f9218e0d6ddadfd0f76             8545 main/binary-all/Packages.gz
- 7109a7f23b4a76db71423cef6c74047430162db83069b91e2a6f16a0bda96e4fe6c9d7fafef178a45a63adc7931a443020e88311828692af7c05f03864da115a            24535 main/binary-amd64/Packages
- f6f64cf60692b9549c8c74e10310ccf913cacc4e6bbac67cbfe0961025c7b646e9d2fa3d4a3f14815700fdc84962f317ecdbb634aca77f9218e0d6ddadfd0f76             8545 main/binary-amd64/Packages.gz
+ c9a01c9fafd88dfa6e52a809daa0fde938f1504091a03d409f9cf7ab4acbbd9f72a5b289263e68812a98a6f07f2698b8aec2df98c3434b4e8d7bbe61b2c7e7a1             2384 Release
+ f52de83b7caad439d87065bdd9665bd1a186fb4020e05c01ad5507b03264fce68a0482d35ff02d1506c907dc8369536d54e3c7114587cf396763b2b9a6e1f40a            26520 main/binary-all/Packages
+ 7d713fc29fc43d6f82aec37ce2d9bc18ddd1997700e24569b2f733fae7bb61c1b4ecdda876628edd11e9b6c247cf9f3b68c93c69cb3a28e3398c287215d286d8             8931 main/binary-all/Packages.gz
+ f52de83b7caad439d87065bdd9665bd1a186fb4020e05c01ad5507b03264fce68a0482d35ff02d1506c907dc8369536d54e3c7114587cf396763b2b9a6e1f40a            26520 main/binary-amd64/Packages
+ 7d713fc29fc43d6f82aec37ce2d9bc18ddd1997700e24569b2f733fae7bb61c1b4ecdda876628edd11e9b6c247cf9f3b68c93c69cb3a28e3398c287215d286d8             8931 main/binary-amd64/Packages.gz
