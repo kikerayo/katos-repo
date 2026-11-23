@@ -39,6 +39,30 @@ Description: Kat, la asistente de Kat OS
  apps Kat, hora, clima, cuentas, volumen, modo oscuro o claro, buscar en
  Kat Store e internet, temporizadores y bloquear la pantalla.
 
+Package: kat-asistente
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: utils
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 180
+Depends: kat-ui (>= 0.1.0), kat-settings (>= 0.1.0), kat-security (>= 0.1.0), kat-store (>= 0.1.0), kat-artwork (>= 0.1.0), python3-pyside6.qtwidgets, python3-pyside6.qtgui, python3-pyside6.qtnetwork, espeak-ng
+Recommends: kat-core, pipewire-bin, alsa-utils
+Filename: pool/alpha/k/kat-asistente/kat-asistente_0.2.0_all.deb
+Size: 37220
+MD5sum: 1e17c0a943aaf81c93d00f3ce85abf30
+SHA1: 02e7f49a49d34269d7c4c90b209f02e8c35dcb11
+SHA256: 9c0f52449d47f5b779b3f58237729bdc506d2cab450de0d744a42c02d333c495
+SHA512: b62b0ae12b89c9d24f4bdabc85157c38df47aa365353928712d68cddd2af2f9672689a7227b856ed26756c12dab4aad940b4e8e6df58fe3aa7fa74da8e58f25b
+Description: Kat, la asistente de Kat OS
+ Una canica animada con orejas de gato que sale de la barra de tareas.
+ La primera vez golpea la barra para salir y te deja elegir su palabra de
+ activación, si usas micrófono, su voz y su diseño. Un clic y le hablas
+ (la transcripción la hace Groq Whisper con tu clave, opcional) o le
+ escribes; responde en voz alta (espeak-ng) y hace cosas de verdad: abrir
+ apps Kat, hora, clima, cuentas, volumen, modo oscuro o claro, buscar en
+ Kat Store e internet, temporizadores y bloquear la pantalla.
+
 Package: kat-bienvenida
 Architecture: all
 Version: 0.1.0
@@ -316,6 +340,27 @@ MD5sum: 367144f6ee46e0d97a796df26ee7539b
 SHA1: f72eecbbab9be512dd0192d8085ab966eb9a5387
 SHA256: 159e16603ab2d15f936c3f0872cb71e2c767fcc4c4cdb95d5115f2195103604a
 SHA512: 1fb8fcf74306d538c299045a262203f39c1172b426d473aa3657840f9e8ed2ff02a9d0b1f9fa829ec2996ba2daf2673196f97cd271ae516c8578987a5dc39df3
+Description: Kat Store: tienda de apps de Kat OS
+ Explora el catálogo real de Flathub (populares, tendencias, novedades,
+ categorías y búsqueda), con fichas, capturas y permisos explicados.
+ Instala, abre, desinstala y actualiza apps (Flatpak) y muestra las
+ fuentes verificadas. Nada inventado: todo sale de Flathub o del equipo.
+
+Package: kat-store
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 84
+Depends: kat-ui (>= 0.1.0), kat-artwork (>= 0.1.0), flatpak, python3-pyside6.qtwidgets, python3-pyside6.qtcore, python3-pyside6.qtgui
+Recommends: kat-core
+Filename: pool/alpha/k/kat-store/kat-store_0.2.0_all.deb
+Size: 17364
+MD5sum: 2a8f6840ef1a520228e95fb37adf52da
+SHA1: 0bd82e34e28e0bf45428c9f81f2e6bd481ec193c
+SHA256: 61ba07a374dc68e142ecf98b1628dd82f1ca88efce112970c0606df61ea1ee97
+SHA512: 6226564c0ca12c6fd8cf800ec30e0d539917326a12b408d8adc50518dabf02f4537b917d55e507e3158294cf3de34e88193604182f017b16eec28fc3dd6093f0
 Description: Kat Store: tienda de apps de Kat OS
  Explora el catálogo real de Flathub (populares, tendencias, novedades,
  categorías y búsqueda), con fichas, capturas y permisos explicados.
