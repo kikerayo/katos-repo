@@ -325,6 +325,28 @@ Description: Piezas del sistema de Kat OS
  carga, inicio de sesión, nombre del sistema y ajustes de memoria.
  Al venir en un paquete se actualiza solo con el repositorio de Kat OS.
 
+Package: kat-sistema
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 112
+Depends: kat-ui, kat-artwork, kat-rostro, plasma-desktop, sddm, systemd-timesyncd
+Filename: pool/alpha/k/kat-sistema/kat-sistema_0.1.1_all.deb
+Size: 18708
+MD5sum: 9c019ab56b6735d60c7ce87b697387f4
+SHA1: 82c58a24b8da76e893a1dc98fee7999eb12c3046
+SHA256: 7162e687fefb8ab28e88ea8ca721dad55e07709f9c46ac6255565e06c2b50237
+SHA512: 73b60dfc006170ce0c39baf0a1dc2df1f6ad917b347a9d20fc83254a27a86f6e3baf0ccc0415fab2a1e778d16e50469e5aeac7d50d410632340c9c99b056f428
+Description: Piezas del sistema de Kat OS
+ Todo lo que hace que el escritorio sea Kat OS y no un Plasma cualquiera:
+ pantalla de bloqueo Kat (KatLock) con cara y PIN, animaciones de las
+ ventanas (kat-aparecer), cursores y colores por defecto, pantalla de
+ carga, inicio de sesión, nombre del sistema, ajustes de memoria y la hora
+ automática por internet (systemd-timesyncd).
+ Al venir en un paquete se actualiza solo con el repositorio de Kat OS.
+
 Package: kat-store
 Architecture: all
 Version: 0.1.0
@@ -409,6 +431,26 @@ Description: Base común de las apps Kat
  Kat Settings y Kat Security para cambiar el cortafuegos y las
  actualizaciones automáticas.
 
+Package: kat-ui
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: python
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 76
+Depends: python3 (>= 3.11), python3-pyside6.qtwidgets, python3-pyside6.qtcore, python3-pyside6.qtgui, pkexec, ufw
+Filename: pool/alpha/k/kat-ui/kat-ui_0.1.1_all.deb
+Size: 13940
+MD5sum: 79bd089d8bbb60479216f89e2c19263f
+SHA1: bcfcc9a5f15ad16443df76c174008467fb2b7dbc
+SHA256: 3cebf3d087b1d601526df77c738716dd908d4146c439fe296e5b538835028e75
+SHA512: 1335af8d38ae6c66fedc46fbe6a64d568c150d4da1026afbce1f412ba59b2296691ff7fad4438bc9b854acf327f10466afec8c06ab312cd509829ec61f7633ed
+Description: Base común de las apps Kat
+ Estilo visual Kat, detección de plataforma, rutas del arte Kat y el
+ ayudante con permisos (kat-ayudante + polkit) que usan Kat Bienvenida,
+ Kat Settings y Kat Security para cambiar el cortafuegos y las
+ actualizaciones automáticas.
+
 Package: kat-update
 Architecture: all
 Version: 0.1.0
@@ -424,6 +466,27 @@ MD5sum: 8996902e9dab81c1d5a51f952d2b4c35
 SHA1: 79ea0f8243a4e6cfcb5e021915cc910c47465092
 SHA256: f9db5ceb8815b4b9848b618e030575a60094e5834b29b902e279e8c6b24d2c38
 SHA512: 799efa485ab270e7185da59e1685ba8c670d9682b59c1e78bb7515a5b28a3704d601e6bd9dcd93212f57c0ebe9123bd190ad14e3f0a74467081ab6594e7573c8
+Description: Kat Update Center: actualizaciones de Kat OS
+ Busca y aplica las actualizaciones del sistema (APT) y de las apps
+ (Flatpak) con el registro en vivo, muestra el historial, avisa si
+ falta reiniciar y activa las actualizaciones de seguridad automáticas.
+ Las actualizaciones nunca reemplazan la configuración propia de Kat OS.
+
+Package: kat-update
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: admin
+Maintainer: Kat OS Project <kat-os@users.noreply.invalid>
+Installed-Size: 40
+Depends: kat-ui (>= 0.1.0), kat-store (>= 0.1.0), kat-artwork (>= 0.1.0), apt, pkexec
+Recommends: kat-core, unattended-upgrades
+Filename: pool/alpha/k/kat-update/kat-update_0.1.1_all.deb
+Size: 7556
+MD5sum: 2f30a76181e1affdf647d2a04925c197
+SHA1: c0ef38952f7e9f305e53e1aa76bb5655717cc70c
+SHA256: 6656144577410ef29faec673ad8e5ac8a0478d6dd6f9e7938ded559407778ac8
+SHA512: 0706c513c024bb7c5ab95afacbd0ae675e2163a08e6a2798c11b217fe74b97112bb228f9b66d4affae269cf5d49adb39df95e34b5293a9fd95648d6f0b4770d6
 Description: Kat Update Center: actualizaciones de Kat OS
  Busca y aplica las actualizaciones del sistema (APT) y de las apps
  (Flatpak) con el registro en vivo, muestra el historial, avisa si
